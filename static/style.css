@@ -11,11 +11,15 @@ img {
     border-style: none;
 }
 
+.hide {
+    display: none;
+}
+
 .main-container {
     width: 90%;
     max-width: 964px;
     margin-top: 172px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -26,7 +30,7 @@ img {
 
 .box-container {
     text-align: center;
-    padding: 42px;
+    padding: 32px;
     background-color: #FFF;
     border: 1px solid #DDD;
     border-radius: 4px;
@@ -38,7 +42,7 @@ img {
 
 .fluid-container {
     position: absolute;
-    top: -130px;
+    top: -122px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -61,12 +65,31 @@ img {
 }
 
 .dev-name {
-    margin-top: 48px;
+    margin-top: 54px;
     margin-bottom: 0px;
+    color: #000;
 }
 
 .dev-title {
     color: rgba(0, 0, 0, .4);
     font-size: 18px;
     margin: 0;
+}
+
+.social-container a {
+    margin: 0 8px;
+}
+
+.translate-container {
+    margin: 4px 0;
+    text-align: right;
+    color: #FFF;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.pointer {
+    cursor: pointer
 }
