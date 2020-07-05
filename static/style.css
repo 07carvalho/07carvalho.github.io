@@ -11,6 +11,11 @@ img {
     border-style: none;
 }
 
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .hide {
     display: none;
 }
@@ -18,7 +23,7 @@ img {
 .main-container {
     width: 90%;
     max-width: 964px;
-    margin-top: 172px;
+    margin-top: 128px;
     margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
@@ -26,14 +31,18 @@ img {
 
 .row {
     width: auto;
+    margin-bottom: 16px;
 }
 
 .box-container {
-    text-align: center;
     padding: 32px;
     background-color: #FFF;
     border: 1px solid #DDD;
     border-radius: 4px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .img-container {
@@ -81,7 +90,7 @@ img {
 }
 
 .translate-container {
-    margin: 4px 0;
+    margin: 8px 32px;
     text-align: right;
     color: #FFF;
 }
@@ -92,4 +101,28 @@ img {
 
 .pointer {
     cursor: pointer
+}
+
+.section-title {
+    margin: 0 0 18px 0;
+}
+
+.collection {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.collection .collection-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.collection-item .main {
+    margin: 0;
+    font-weight: 600;
+}
+
+.collection-item .description {
+    color: rgba(0, 0, 0, .4);
+    margin: 0;
 }
